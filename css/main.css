@@ -10,20 +10,22 @@ h1, h2, h3, h4, h5, h6, a, p, span {
 	padding: 0;
 }
 
-.main {
-	display: flex;
-	justify-content: space-around;
-}
-
 
 h1 {
 	font-family: "GothamProMedium";
-	font-size: 52px;
+	font-size: 45px;
 	font-weight: normal;
 	text-align: center;
-	letter-spacing: -2.5px;
-	padding-top: 50px;
-	padding-left: 40px;
+	letter-spacing: -2.7px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.kbdbackground {
+	background-image:url(../img/kbdbackground2.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	padding-bottom: 80px;
 }
 
 .container {
@@ -33,7 +35,7 @@ h1 {
 
 .row {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	margin-top: 22px;
 
 }
@@ -45,6 +47,20 @@ h1 {
 	border: 2px solid #eeeeee;
 	border-radius: 5px;
 	text-align: center;
+}
+
+#grey {
+	background-color: #eeeeee;
+}
+
+#grey:hover {
+	background-color: #b9d7ff;
+	transition: 0.5s;
+}
+
+.block:hover {
+	background-color: #eeeeee;
+	transition: 0.5s;
 }
 
 .block-content {
