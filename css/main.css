@@ -10,50 +10,58 @@ h1, h2, h3, h4, h5, h6, a, p, span {
 	padding: 0;
 }
 
-p {
+.main {
+	display: flex;
+	justify-content: space-around;
+}
+
+
+h1 {
 	font-family: "GothamProMedium";
 	font-size: 52px;
-	letter-spacing: -2.3px;
+	font-weight: normal;
+	text-align: center;
+	letter-spacing: -2.5px;
+	padding-top: 50px;
+	padding-left: 40px;
+}
+
+.container {
+	width: 814px;
+	margin: 0 auto;
 }
 
 .row {
 	display: flex;
 	justify-content: space-between;
-}
-
-.object1 {
-	padding-left: 190px;
-	padding-top: 120px;
+	margin-top: 22px;
 
 }
 
-.object2 {
-	padding-right: 235px;
-	padding-top: 95px;
+.block {
+	width: 183px;
+	height: 167px;
+	background-color: white;
+	border: 2px solid #eeeeee;
+	border-radius: 5px;
+	text-align: center;
 }
 
-.object3 {
-	padding-left: 170px;
-	padding-top: 150px;
-
+.block-content {
+	margin-top: 30px;
 }
 
-.object4 {
-	padding-right: 110px;
-	padding-top: 100px;
+.block-img {
+	margin-bottom: 10px;
 }
 
-.object5 {
-	padding-left: 120px;
-	padding-top: 135px;
-
+.block a {
+	text-decoration: none;
+	text-decoration: underline;
+	color: #006cff;
+	font-size: 16px;
+	font-family: "GothamProMedium"
 }
-
-.object6 {
-	padding-right: 123px;
-	padding-top: 70px;
-}
-
 
 
 
