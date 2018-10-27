@@ -1,0 +1,79 @@
+body {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6, a, p, span {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	font-family: "GothamProMedium";
+	font-size: 52px;
+	letter-spacing: -2.3px;
+}
+
+.row {
+	display: flex;
+	justify-content: space-between;
+}
+
+.object1 {
+	padding-left: 190px;
+	padding-top: 120px;
+
+}
+
+.object2 {
+	padding-right: 235px;
+	padding-top: 95px;
+}
+
+.object3 {
+	padding-left: 170px;
+	padding-top: 150px;
+
+}
+
+.object4 {
+	padding-right: 110px;
+	padding-top: 100px;
+}
+
+.object5 {
+	padding-left: 120px;
+	padding-top: 135px;
+
+}
+
+.object6 {
+	padding-right: 123px;
+	padding-top: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+font-family: "GothamProMedium"; 
+src: url("../fonts/GothamProMedium.otf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+} 
