@@ -4,13 +4,14 @@
 	<meta charset="UTF-8">
 	<title>Mechanical Keyboards Wiki</title>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script src="js/custom.js"></script>
 </head>
 <body>
 	<div class="main">
 		<div class="kbdbackground">
 		<div class="menu">
 			<div class="container">
-				<h1>Русская энциклопедия<br>механическим клавиатур.</h1>
+				<h1 id="text">Русская энциклопедия<br>механических клавиатур</h1>
 				<div class="row">
 					<div class="block" id="grey">
 						<div class="block-content">
@@ -93,5 +94,18 @@
 		</div>
 		</div>
 	</div>
+<script>
+	var i=0, text;
+	text = "Tекст 1<br>Текст2"
+
+	function typing() {
+	if(i<text.lenght){
+		document.getElementById('text').innerHTML += text.charAt(i);
+		i++;
+		setTimeout(typing, 100);
+	}
+}
+Typing();
+</script>
 </body>
 </html>
